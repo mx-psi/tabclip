@@ -1,0 +1,26 @@
+{
+
+  "manifest_version": 2,
+  "name": "Tabclip",
+  "version": "0.1",
+
+  "description": "Copy tabs into your favorite plain text markup language list.",
+  "homepage_url": "https://github.com/mx-psi/tabclip",
+  "icons": {
+    "48": "icons/tabclip-48.png"
+  },
+
+  "background": {
+      "scripts": ["scripts/background.js"]
+  },
+  
+  "permissions": [
+    "tabs",
+    "clipboardWrite"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/tabclip-32.png",
+    "default_title": "Copy to clipboard"
+  }
+}
